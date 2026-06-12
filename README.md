@@ -38,6 +38,10 @@ Or press **F5** in the repo to open an Extension Development Host and preview li
 npx @vscode/vsce package
 ```
 
+## Icon
+
+The extension icon is a hand-drawn SVG identity disc ([`icon.svg`](icon.svg)). VS Code requires a PNG for the marketplace package, so `icon.png` is rendered from that SVG at 256×256.
+
 ## Palette
 
 | Role | Color |
